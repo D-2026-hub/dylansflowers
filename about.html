@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <meta name="description" content="Learn about the technical processes and definitions behind image asset interpolation used on our flower media elements."> <title>Dylan's Flowers | About Technical Specifications</title> <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<h1>Dylan's Flowers</h1>
+</header>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="photos.html">Photo Gallery</a>
+<a href="about.html">About Flowers</a>
+<a href="contact.html">Contact Us</a>
+</nav>
+
+<div class="container">
+<main>
+<h2>Flowers project</h2>
+<p>This website was made using Visual Studio Code. The images are filtered using Krita and sourced from Pixabay</p>
+
+<h3>Filter Matrix</h3>
+<table>
+<thead>
+<tr>
+<th>Filter</th>
+<th>Effect of filter</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Nearest Neighbour</td>
+<td>No pixel blending. Retains contrast and edge</td>
+</tr>
+<tr>
+<td>Bell</td>
+<td>Uses smoothing and anti aliasing</td>
+</tr>
+<tr>
+<td>Bicubic</td>
+<td>Evaluates comprehensive grid of 16 proximal pixels to calculate complex curves.</td>
+</tr>
+<tr>
+<td>B-Spline</td>
+<td>Interpolation</td>
+</tr>
+</tbody>
+</table>
+</main>
+</div>
+
+<footer>
+<p>All rights reserved to Dylan &copy; 2026</p>
+</footer>
+
+</body>
+</html>
